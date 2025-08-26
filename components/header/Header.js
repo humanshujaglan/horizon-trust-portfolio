@@ -59,7 +59,7 @@ const Header = (props) => {
                                             </Link>
                                         </li>
                                         <li>
-                                            <a href="https://staking.horizontrust.biz" className="nav-link scrollspy_btn">
+                                            <a href="https://stake.horizontrust.biz" className="nav-link scrollspy_btn">
                                                 <span className="nav_link_label" data-text="Staking">Staking</span>
                                             </a>
                                         </li>
@@ -86,7 +86,7 @@ const Header = (props) => {
                                     </button>
                                 </li>
                                 <li>
-                                    <a href='https://staking.horizontrust.biz' className="ico_btn_outline scrollspy_btn d-lg-inline-flex d-none">
+                                    <a href='https://stake.horizontrust.biz' className="ico_btn_outline scrollspy_btn d-lg-inline-flex d-none">
                                         <span className="btn_icon">
                                             <i className="fa-solid fa-arrow-right"></i>
                                         </span>
@@ -102,5 +102,6 @@ const Header = (props) => {
 
     )
 }
+
 
 export default Header;
