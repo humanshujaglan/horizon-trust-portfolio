@@ -55,7 +55,7 @@ const FeaturesSection = () => {
                     </div>
 
                     {/* Right Side - Investment Details */}
-                    <div className="col-lg-6" style={{padding: '0 55px'}}>
+                    <div className="col-lg-6" style={{padding: '0 55px', marginTop: "100px"}}>
                         {/* Staking Details */}
                         <div className="ico_coin_purchase_price" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
                             <p className="purchase_price_rate mb-0 text-secondary">
@@ -98,5 +98,6 @@ const FeaturesSection = () => {
         </section>
     );
 };
+
 
 export default FeaturesSection;
