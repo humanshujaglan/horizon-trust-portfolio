@@ -369,6 +369,7 @@ const EventSection = () => {
           background: rgba(255, 255, 255, 0.1);
           backdrop-filter: blur(10px);
           color: white;
+          width: 100%;
         }
 
         .stat_row {
@@ -453,3 +454,4 @@ const EventSection = () => {
 
 
 export default EventSection;
+
