@@ -8597,6 +8597,9 @@ Responsive For Mobile & Tablet Devices
     padding: 30px;
     border-radius: 0;
     border-width: 1px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .event_card_block .event_date {
