@@ -53,9 +53,9 @@ const FAQSection = () => {
         general: [
             "Horizon Trust USDT Staking is a multi-tier reward platform where users stake USDT tokens and earn through direct referrals (20%), level bonuses (40%), and pool distributions (40%). The system uses a referral-based structure with Silver, Gold, and Bronze tiers.",
             "To start staking, you must first register with a valid sponsor who already has an active stake. Once registered, you can stake in units of 103 USDT (100 USDT net stake + 3 USDT fee) to begin earning rewards.",
-            "Each stake unit costs 103 USDT, which includes 100 USDT as your net stake and 3 USDT as a processing fee that goes to the master address. You can stake multiple units to increase your earning potential.",
+            "Each stake unit costs 103 USDT, which includes 100 USDT as your net stake and 3 USDT as a processing fee that goes to the system. You can stake multiple units to increase your earning potential.",
             "Yes, registration requires a sponsor who is already registered and has an active stake. You cannot register without a valid sponsor, and you cannot sponsor yourself. This creates the referral network structure.",
-            "For each 103 USDT stake unit, 3 USDT (approximately 2.9%) goes as a fee to the master address, and 100 USDT becomes your active stake that earns rewards. There are no additional fees for claiming rewards above 5 USDT."
+            "For each 103 USDT stake unit, 3 USDT (approximately 2.9%) goes as a fee to the system, and 100 USDT becomes your active stake that earns rewards. There are no additional fees for claiming rewards above 5 USDT."
         ],
         rewards: [
             "Rewards are distributed as follows: 20% goes directly to your sponsor, 40% is distributed across 12 levels of upline sponsors, and 40% is distributed among pool participants based on their tier eligibility and stake amount.",
@@ -65,17 +65,17 @@ const FAQSection = () => {
             "The minimum claim amount is 5 USDT. You cannot claim rewards below this threshold from any of the pools. This prevents small, uneconomical transactions."
         ],
         technical: [
-            "The platform supports USDT BEP-20 tokens. The smart contract is built using OpenZeppelin's upgradeable framework with security features including reentrancy protection and safe token transfers.",
-            "The contract uses industry-standard security practices including ReentrancyGuard, SafeERC20 for token transfers, and Ownable access control. It's also upgradeable through UUPS proxy pattern, with only the owner able to authorize upgrades.",
+            "The platform supports USDT BEP-20 tokens.",
+            "The contract uses industry-standard security practices including ReentrancyGuard, SafeERC20 for token transfers, and Ownable access control.",
             "There are three tiers: Silver (requires 5+ direct referrals + active stake, provides 5x earning cap), Gold (requires 10+ direct referrals + active stake, provides 10x earning cap), and Bronze (requires 30+ days since first stake, provides 2x earning cap).",
             "Pool eligibility is automatic: Silver tier users with 5+ referrals share the Silver pool rewards, Gold tier users with 10+ referrals share both Silver and Gold pools, and users with stakes 30+ days old can claim from the Bronze pool based on their stake weight.",
-            "Bronze eligibility activates automatically 30 days after your first stake. However, you need to call updateBronzeEligibility() function or interact with the contract (stake/claim) to activate your eligibility and start earning from the Bronze pool."
+            "Bronze eligibility activates automatically 30 days after your first stake. However, you need to click on button \"Refresh Status\" or interact with the contract (stake/claim) to activate your eligibility and start earning from the Bronze pool."
         ],
         support: [
             "You can contact Horizon Trust support through our official website support channels. Always verify you're using official communication channels to avoid scams and ensure the security of your funds.",
             "The platform is compatible with any wallet that supports USDT BEP-20 tokens and can interact with smart contracts, such as MetaMask, Trust Wallet, and other Web3-enabled wallets.",
             "You can check your tier eligibility by viewing your direct referral count and stake age. Silver requires 5+ referrals, Gold requires 10+ referrals, and Bronze requires 30+ days since first stake. The contract provides view functions to check your status.",
-            "Unclaimed rewards remain in the pools and continue to accumulate. However, you must have at least 5 USDT in pending rewards to claim. If you don't meet tier requirements, those rewards go to the master address instead.",
+            "Unclaimed rewards remain in the pools and continue to accumulate. However, you must have at least 5 USDT in pending rewards to claim. If you don't meet tier requirements, those rewards will stay in system",
             "Yes, you can stake multiple times. Each stake creates a new stake record with its own timestamp. Multiple stakes increase your total staked amount, which increases your share of pool rewards and your earning cap based on your tier multiplier."
         ]
     };
@@ -200,5 +200,6 @@ const FAQSection = () => {
         </section>
     );
 };
+
 
 export default FAQSection;
