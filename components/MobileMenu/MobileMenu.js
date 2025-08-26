@@ -23,36 +23,12 @@ const MobileMenu = () => {
 
     return (
         <ul className="mobail-menu main_menu_list unordered_list text-uppercase">
-            {menus.map((item, mn) => {
-                return (
-                    <ListItem className={item.id === openId ? 'active' : null} key={mn}>
-                        {item.submenu ?
-                            <Fragment>
-                                <p onClick={() => setOpenId(item.id === openId ? 0 : item.id)}>{item.title}
-                                    <i className={item.id === openId ? 'fa fa-angle-up' : 'fa fa-angle-down'}></i>
-                                </p>
-                                <Collapse in={item.id === openId} timeout="auto" unmountOnExit>
-                                    <List className="menu-item menu-item-has-children active">
-                                        <Fragment>
-                                            {item.submenu.map((submenu, i) => {
-                                                return (
-                                                    <ListItem key={i}>
-                                                        <NavLink onClick={ClickHandler} className="active"
-                                                            href={submenu.link}>{submenu.title}</NavLink>
-                                                    </ListItem>
-                                                )
-                                            })}
-                                        </Fragment>
-                                    </List>
-                                </Collapse>
-                            </Fragment>
-                            : <NavLink className="active"
-                                href={item.link}>{item.title}</NavLink>
-                        }
-                    </ListItem>
-                )
-            })}
-            <ul className='MuiList-root MuiList-padding css-h4y409-MuiList-root'>
+            <ul className='MuiList-root MuiList-padding css-h4y409-MuiList-root' style={{display: "flex", flexDirection: 'column', alignItems: 'center'}}>
+                <li>
+                    <Link to="id_ico_hero_section" spy={true} smooth={true} duration={500} offset={-100} className="nav-link scrollspy_btn">
+                        <span className="nav_link_label" data-text="Home">Home</span>
+                    </Link>
+                </li>
                 <li>
                     <Link to="id_ico_about_section" spy={true} smooth={true} duration={500} offset={-100} className="nav-link scrollspy_btn">
                         <span className="nav_link_label" data-text="About">About</span>
