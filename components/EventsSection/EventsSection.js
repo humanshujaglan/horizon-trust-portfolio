@@ -18,7 +18,7 @@ const events = [
     title: 'USDT BEP-20 Staking - Earn Multi-Level Rewards Today',
     description: 'Start earning with our current staking platform featuring Direct, Level, Silver, Gold & Bronze pools.',
     imageUrl: eventImage1,
-    ticketUrl: 'https://staking.horizontrust.biz',
+    ticketUrl: 'https://stake.horizontrust.biz',
     status: 'active',
     priority: 'high'
   },
@@ -450,5 +450,6 @@ const EventSection = () => {
     </section>
   );
 };
+
 
 export default EventSection;
