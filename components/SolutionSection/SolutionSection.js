@@ -84,7 +84,7 @@ const SolutionSection = () => {
                                     },
                                     {
                                         label: 'USDT BEP-20 Stability',
-                                        info: 'Secure, stable token staking with automated reward distribution and upgradeable contracts.',
+                                        info: 'Secure, stable token staking with automated reward distribution.',
                                     },
                                 ].map((item, index) => (
                                     <li key={index}>
@@ -105,5 +105,6 @@ const SolutionSection = () => {
         </section>
     );
 };
+
 
 export default SolutionSection;
