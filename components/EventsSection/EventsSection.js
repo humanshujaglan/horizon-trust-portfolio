@@ -24,12 +24,12 @@ const events = [
   },
   {
     id: 1,
-    date: 'Q3 2026',
+    date: 'Q2 2026',
     location: 'Horizon Trust Platform',
     title: 'Horizon Trust Token Launch - Revolutionary Staking Ecosystem',
     description: 'Join our native token launch featuring multi-tier staking rewards with USDT BEP-20 compatibility.',
     imageUrl: eventImage2,
-    ticketUrl: '/contact',
+    ticketUrl: '/',
     status: 'upcoming',
     priority: 'high'
   },
@@ -40,7 +40,7 @@ const events = [
     title: 'Initial Token Offering (ITO) - Exclusive Early Access',
     description: 'Participate in our ITO with special bonuses for existing stakers and referral network members.',
     imageUrl: eventImage3,
-    ticketUrl: '/contact',
+    ticketUrl: '/',
     status: 'upcoming',
     priority: 'high'
   },
@@ -51,7 +51,7 @@ const events = [
     title: 'Horizon Trust DEX Launch - Trade with Zero Fees',
     description: 'Experience seamless trading on our proprietary DEX with integrated staking rewards.',
     imageUrl: eventImage4,
-    ticketUrl: '/contact',
+    ticketUrl: '/',
     status: 'roadmap',
     priority: 'medium'
   },
@@ -454,4 +454,5 @@ const EventSection = () => {
 
 
 export default EventSection;
+
 
