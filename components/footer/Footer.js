@@ -50,7 +50,7 @@ const Footer = () => {
                     </div>
                     <div className="column">
                         <h3 className="footer_title text-uppercase">Start staking with Horizon Trust</h3>
-                        <NavLink className="ico_creative_btn" href="https://staking.horizontrust.biz" target="_blank" rel="noopener noreferrer" onClick={ClickHandler}>
+                        <NavLink className="ico_creative_btn" href="https://stake.horizontrust.biz" target="_blank" rel="noopener noreferrer" onClick={ClickHandler}>
                             <span className="btn_wrapper">
                                 <span className="btn_icon_left">
                                     <small className="dot_top"></small>
@@ -83,5 +83,6 @@ const Footer = () => {
         </footer>
     );
 };
+
 
 export default Footer;
