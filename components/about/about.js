@@ -22,7 +22,7 @@ const About = (props) => {
                                     What is USDT Staking?
                                 </h3>
                                 <p className="info_description mb-0">
-                                    USDT staking on Horizon Trust allows you to stake tokens in units of 103 USDT (100 USDT net stake + 3 USDT fee) and earn rewards through our multi-tier distribution system including direct, level, and pool-based rewards.
+                                    USDT staking on Horizon Trust allows you to stake tokens in units of 103 USDT (100 USDT net stake + 3 USDT Platform fee) and earn rewards through our multi-tier distribution system including direct, level, and pool-based rewards.
                                 </p>
                             </li>
                             <li data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
@@ -99,5 +99,6 @@ const About = (props) => {
         </section>
     )
 }
+
 
 export default About;
