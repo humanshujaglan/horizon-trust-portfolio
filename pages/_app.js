@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <div>
       <Head>
-        <title>Coinlye - Meme coin ICO & Crypto Next Js Template</title>
+        <title>Horizon Trust</title>
       </Head>
       <GlobalAOSProvider>
         <Component {...pageProps} />
