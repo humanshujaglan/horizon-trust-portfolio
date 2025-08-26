@@ -35,7 +35,7 @@ const events = [
   },
   {
     id: 2,
-    date: 'Q4 2026',
+    date: 'Q2 2026',
     location: 'Global Launch Event',
     title: 'Initial Token Offering (ITO) - Exclusive Early Access',
     description: 'Participate in our ITO with special bonuses for existing stakers and referral network members.',
@@ -454,5 +454,6 @@ const EventSection = () => {
 
 
 export default EventSection;
+
 
 
