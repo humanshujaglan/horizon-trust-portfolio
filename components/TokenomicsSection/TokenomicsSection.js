@@ -12,7 +12,7 @@ import Image from 'next/image';
 const stakingRewardsData = [
     { percent: '20%', title: 'Direct Staking Rewards' },
     { percent: '40%', title: 'Level Bonuses' },
-    { percent: '10%', title: 'Bronze Pool Distribution' },
+    { percent: '20%', title: 'Bronze Pool Distribution' },
     { percent: '10%', title: 'Silver Pool Distribution' },
     { percent: '10%', title: 'Gold Pool Distribution' },
 ];
@@ -108,3 +108,4 @@ const TokenomicsSection = () => {
 };
 
 export default TokenomicsSection;
+
