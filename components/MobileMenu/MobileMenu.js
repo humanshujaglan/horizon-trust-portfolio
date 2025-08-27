@@ -35,9 +35,9 @@ const MobileMenu = () => {
                     </Link>
                 </li>
                 <li>
-                    <Link to="id_ico_service_section" spy={true} smooth={true} duration={500} offset={-100} className="nav-link scrollspy_btn">
+                    <a href="https://stake.horizontrust.biz" spy={true} smooth={true} duration={500} offset={-100} className="nav-link scrollspy_btn">
                         <span className="nav_link_label" data-text="Staking">Staking</span>
-                    </Link>
+                    </a>
                 </li>
                 <li>
                     <Link to="id_ico_roadmap_section" spy={true} smooth={true} duration={500} offset={-100} className="nav-link scrollspy_btn">
@@ -55,3 +55,4 @@ const MobileMenu = () => {
 }
 
 export default MobileMenu;
+
