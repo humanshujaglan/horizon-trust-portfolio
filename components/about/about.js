@@ -52,7 +52,7 @@ const About = (props) => {
                                     Market Opportunity
                                 </h3>
                                 <p className="info_description mb-0">
-                                    The referral-based staking market offers unique earning opportunities through network effects. With minimum claims of 5 USDT and structured reward distribution, Horizon Trust provides multiple income streams through direct sponsorship, level bonuses, and exclusive tier-based pool rewards for qualified participants.
+                                    The referral-based staking market offers unique earning opportunities through network effects. With minimum claims of 0 USDT and structured reward distribution, Horizon Trust provides multiple income streams through direct sponsorship, level bonuses, and exclusive tier-based pool rewards for qualified participants.
                                 </p>
                             </li>
                         </ul>
@@ -102,3 +102,4 @@ const About = (props) => {
 
 
 export default About;
+
