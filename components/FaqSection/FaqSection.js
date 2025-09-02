@@ -55,7 +55,7 @@ const FAQSection = () => {
             "To start staking, you must first register with a valid sponsor who already has an active stake. Once registered, you can stake in units of 103 USDT (100 USDT net stake + 3 USDT fee) to begin earning rewards.",
             "Each stake unit costs 103 USDT, which includes 100 USDT as your net stake and 3 USDT as a processing fee that goes to the system. You can stake multiple units to increase your earning potential.",
             "Yes, registration requires a sponsor who is already registered and has an active stake. You cannot register without a valid sponsor, and you cannot sponsor yourself. This creates the referral network structure.",
-            "For each 103 USDT stake unit, 3 USDT (approximately 2.9%) goes as a fee to the system, and 100 USDT becomes your active stake that earns rewards. There are no additional fees for claiming rewards above 5 USDT."
+            "For each 103 USDT stake unit, 3 USDT (approximately 2.9%) goes as a fee to the system, and 100 USDT becomes your active stake that earns rewards."
         ],
         rewards: [
             "Rewards are distributed as follows: 20% goes directly to your sponsor, 40% is distributed across 12 levels of upline sponsors, and 40% is distributed among pool participants based on their tier eligibility and stake amount.",
@@ -203,4 +203,5 @@ const FAQSection = () => {
 
 
 export default FAQSection;
+
 
