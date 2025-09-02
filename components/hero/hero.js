@@ -111,7 +111,7 @@ const Hero = () => {
                             </div>
                             <ul className="progress_value unordered_list justify-content-between">
                                 <li>Stake Unit: 103 USDT</li>
-                                <li>Min Claim: 5 USDT</li>
+                                <li>Min Claim: 0 USDT</li>
                             </ul>
                         </div>
                     </div>
@@ -129,5 +129,6 @@ const Hero = () => {
         </section>
     )
 }
+
 
 export default Hero;
