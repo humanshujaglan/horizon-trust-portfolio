@@ -62,7 +62,7 @@ const FAQSection = () => {
             "Direct referral rewards give your sponsor 20% of your net stake amount immediately when you stake. This creates an instant reward for successful referrals and network building.",
             "Level bonuses distribute 40% of each stake across 12 levels of sponsors above you. Each level receives different percentages, with higher levels (1-4) receiving 5% each, mid levels (5-8) receiving 3% each, and lower levels (9-12) receiving 2% each.",
             "There are three pool rewards: Silver Pool (10% distribution for users with 5+ referrals), Gold Pool (10% distribution for users with 10+ referrals), and Bronze Pool (20% distribution for users with stakes older than 30 days).",
-            "The minimum claim amount is 5 USDT. You cannot claim rewards below this threshold from any of the pools. This prevents small, uneconomical transactions."
+            "There is not any minimum claim value."
         ],
         technical: [
             "The platform supports USDT BEP-20 tokens.",
@@ -203,3 +203,4 @@ const FAQSection = () => {
 
 
 export default FAQSection;
+
