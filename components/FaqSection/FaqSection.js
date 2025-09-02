@@ -75,7 +75,7 @@ const FAQSection = () => {
             "You can contact Horizon Trust support through our official website support channels. Always verify you're using official communication channels to avoid scams and ensure the security of your funds.",
             "The platform is compatible with any wallet that supports USDT BEP-20 tokens and can interact with smart contracts, such as MetaMask, Trust Wallet, and other Web3-enabled wallets.",
             "You can check your tier eligibility by viewing your direct referral count and stake age. Silver requires 5+ referrals, Gold requires 10+ referrals, and Bronze requires 30+ days since first stake. The contract provides view functions to check your status.",
-            "Unclaimed rewards remain in the pools and continue to accumulate. However, you must have at least 5 USDT in pending rewards to claim. If you don't meet tier requirements, those rewards will stay in system",
+            "Unclaimed rewards remain in the pools and continue to accumulate.",
             "Yes, you can stake multiple times. Each stake creates a new stake record with its own timestamp. Multiple stakes increase your total staked amount, which increases your share of pool rewards and your earning cap based on your tier multiplier."
         ]
     };
@@ -203,5 +203,6 @@ const FAQSection = () => {
 
 
 export default FAQSection;
+
 
 
