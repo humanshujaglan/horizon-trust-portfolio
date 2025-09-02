@@ -65,7 +65,7 @@ const FeaturesSection = () => {
                                 <Image src={shape1} alt="Shape Chart" />
                             </div>
                             <div className="live_values">
-                                <span>Min. Claim: 5 USDT</span>
+                                <span>Min. Claim: 0 USDT</span>
                                 <span>Fee per Unit: 3 USDT</span>
                             </div>
                         </div>
@@ -101,3 +101,4 @@ const FeaturesSection = () => {
 
 
 export default FeaturesSection;
+
